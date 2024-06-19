@@ -1,5 +1,5 @@
 
-# Automation Testing Project
+# API Testing Project
 
 This project illustrates the knowledge I gained after completing both Manual and Automation testing courses.
 
