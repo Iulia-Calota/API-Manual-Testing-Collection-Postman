@@ -16,6 +16,8 @@ This project illustrates the knowledge I gained after completing both Manual and
 ######  What is Newman?
 
 
+
+
 **What is an API?** 
 
 #### API (Application Programming Interface):
