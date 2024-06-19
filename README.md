@@ -7,20 +7,20 @@ Start time: June 2024
 
 End time: July 2024
 
-###### Structure of the Project:
+Structure of the Project:
 
- What is an API?
- What is REST?
- How Rest Api Works
- What is Postman?
- What is Newman?
+#### What is an API?
+####  What is REST?
+####  How Rest Api Works
+####  What is Postman?
+####  What is Newman?
 
 **What is an API?** 
-## API (Application Programming Interface):
+#### API (Application Programming Interface):
 An API is a set of rules and definitions that allows two or more computer programs or components to communicate with each other. In essence, an API serves as a contract between different software components, ensuring they can work together in a predictable and efficient manner.
 
 **What is REST?**
-## REST (Representational State Transfer):
+#### REST (Representational State Transfer):
 REST is a way to design web services so that different software systems can communicate over the internet in a simple and consistent way.
 
 **How REST API Works**
