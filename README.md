@@ -59,7 +59,7 @@ This project illustrates the knowledge I gained after completing both Manual and
 
 
 
-                             Without further ado, let’s get started!
+                                          Let's get started!
 
 
 **Web APIs Under Test**
