@@ -4,8 +4,11 @@
 This project illustrates the knowledge I gained after completing both Manual and Automation testing courses from Udemy.
 
 Start time: June 2024
+
 End time: July 2024
-Structure of the Project:
+
+###### Structure of the Project:
+
  What is an API?
  What is REST?
  How Rest Api Works
