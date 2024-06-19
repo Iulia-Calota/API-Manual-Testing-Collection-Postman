@@ -1,16 +1,16 @@
 
 # Automation Testing Project
 
-### This project illustrates the knowledge I gained after completing both Manual and Automation testing courses from Udemy.
+This project illustrates the knowledge I gained after completing both Manual and Automation testing courses from Udemy.
 
-### Start time: June 2024
-### End time: July 2024
-### ### Structure of the Project:
-### What is an API?
-### What is REST?
-### What is RESTful?
-### What is Postman?
-### What is Newman?
+Start time: June 2024
+End time: July 2024
+Structure of the Project:
+ What is an API?
+ What is REST?
+ How Rest Api Works
+ What is Postman?
+ What is Newman?
 
 **What is an API?** 
 ## API (Application Programming Interface):
@@ -50,8 +50,8 @@ It enables you to run and test a Postman Collection directly from the command li
 
 
 
-                             ## Without further ado, let’s get started! 😊
-                             
+                             Without further ado, let’s get started! 😊
+
 
 **Web APIs Under Test**
 - Chuck Norris
