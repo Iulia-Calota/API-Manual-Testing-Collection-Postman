@@ -58,8 +58,7 @@ This project illustrates the knowledge I gained after completing both Manual and
 - It's built with extensibility in mind so that you can integrate it with your continuous integration (CI) servers and build systems.
 
 
-
-                                          Let's get started!
+## Let's get started 
 
 
 **Web APIs Under Test**
@@ -79,17 +78,22 @@ This project illustrates the knowledge I gained after completing both Manual and
 
 #### Validation Process:
 - Starting with the **GET** method:
-- Website: **Chuck Norris**
+- Website:[**Chuck Norris**](https://https://api.chucknorris.io/)
+- The endpoints for Chuck Norris website that I am using are: Music, Food, and Jokes
 
+**The Endpoint Path:**
+- Append the category endpoint to the base URL.
+ For example:
+- For jokes: https://api.chucknorris.io/jokes/random
+- For food: https://api.chucknorris.io/jokes/random?category=food
+- For music: https://api.chucknorris.io/jokes/random?category=music
+- Send Request:Postman will fetch a Chuck Norris joke based on the category I specified
+- View Response: 200 OK  
 
+![Chuck Norris Jokes](image-1.png)
+![Chuck Norris Food](image-2.png)
+![ Chuck Norris Music](image.png)
 
-
-
-
-
-
-
-
-
-
+- This way, I enjoyed Chuck Norris jokes tailored to different themes directly through Postman using the Chuck Norris API.
+- It’s a great way to have some fun and explore the humorous side of Chuck Norris!
 
