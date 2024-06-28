@@ -90,9 +90,9 @@ This project illustrates the knowledge I gained after completing both Manual and
 - Send Request:Postman will fetch a Chuck Norris joke based on the category I specified
 - View Response: 200 OK  
 
-![Chuck Norris Jokes](image-1.png)
-![Chuck Norris Food](image-2.png)
-![ Chuck Norris Music](image.png)
+![Chuck Norris Jokes](image-3.png))
+![Chuck Norris Food](image-4.png))
+![Chuck Norris Music](image-5.png))
 
 - This way, I enjoyed Chuck Norris jokes tailored to different themes directly through Postman using the Chuck Norris API.
 - It’s a great way to have some fun and explore the humorous side of Chuck Norris!
