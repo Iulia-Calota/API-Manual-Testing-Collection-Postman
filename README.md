@@ -17,7 +17,6 @@ This project illustrates the knowledge I gained after completing both Manual and
 
 
 
-
 **What is an API?** 
 
 #### API (Application Programming Interface):
@@ -114,14 +113,14 @@ This project illustrates the knowledge I gained after completing both Manual and
 **Category Endpoints:**
 
 #### Verification Process:
-$
-- lat: Latitude. Required for geolocation requests.
-- lon: Longitude. Required for geolocation requests.
-- appid: Your unique API key.
-- mode: Optional response format (xml, html, or JSON).
-- units: Optional units of measurement (standard, metric, or imperial).
-- lang: Optional language for the response.
-$
+
+######  lat: Latitude. Required for geolocation requests.
+######  lon: Longitude. Required for geolocation requests.
+######  appid: Your unique API key.
+######  mode: Optional response format (xml, html, or JSON).
+######  units: Optional units of measurement (standard, metric, or imperial).
+######  lang: Optional language for the response.
+
 
 **Starting with**
 - URL: https://api.openweathermap.org/data/2.5/weather?q=Bucharest,RO&appid=<Your_API_Key>
