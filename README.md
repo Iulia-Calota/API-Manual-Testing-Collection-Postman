@@ -154,4 +154,5 @@ This project illustrates the knowledge I gained after completing both Manual and
 - XML Response:
 ![City name Gent](image-9.png)
 
-
+🌍 Access Current Weather Data Everywhere! 🌤️
+- After successfully completing my weather API call, I'm excited to share the power of accessing current weather data from any location on Earth! 
