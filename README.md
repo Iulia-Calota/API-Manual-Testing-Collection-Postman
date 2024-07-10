@@ -79,7 +79,7 @@ This project illustrates the knowledge I gained after completing both Manual and
 #### Validation Process:
 - Starting with the **GET** method:
 - Website:[**Chuck Norris**](https://https://api.chucknorris.io/)
-- The endpoints for Chuck Norris website that I am using are: Music, Food, and Jokes
+- The endpoints for Chuck Norris website that I am using are: Music, Food, and Jokes with different response formats
 
 **The Endpoint Path:**
 - Append the category endpoint to the base URL.
@@ -90,10 +90,63 @@ This project illustrates the knowledge I gained after completing both Manual and
 - Send Request:Postman will fetch a Chuck Norris joke based on the category I specified
 - View Response: 200 OK  
 
-![Chuck Norris Jokes](image-3.png))
-![Chuck Norris Food](image-4.png))
-![Chuck Norris Music](image-5.png))
+![Chuck Norris Jokes](image-3.png)
+![Chuck Norris Food](image-4.png)
+![Chuck Norris Music](image-5.png)
 
 - This way, I enjoyed Chuck Norris jokes tailored to different themes directly through Postman using the Chuck Norris API.
 - It’s a great way to have some fun and explore the humorous side of Chuck Norris!
+
+
+#### Validation Process:
+- Starting with the **GET** method:
+- Website: [**OpenWeatherMap**](https://https://openweathermap.org/)
+- The endpoints for OpenWeatherMap that I am using are: 
+- Current weather data by geographic coordinates, city name, and with different response formats
+**The Endpoint Path:**
+-  Append the category endpoint to the base URL.
+- Base URL: https://api.openweathermap.org/data/2.5/weather
+- API Key: <Your_API_Key>
+**Category Endpoints:**
+- Endpoint URL: https://api.openweathermap.org/data/2.5/weather?q=Gent,BE&mode=xml&appid=<Your_API_Key>
+- Parameters Explanation:
+$lat: Latitude. Required for geolocation requests.
+lon: Longitude. Required for geolocation requests.
+appid: Your unique API key.
+mode: Optional response format (xml, html, or JSON).
+units: Optional units of measurement (standard, metric, or imperial).
+lang: Optional language for the response.
+$
+**Steps to Validate:**
+- URL: https://api.openweathermap.org/data/2.5/weather?q=Bucharest,RO&appid=<Your_API_Key>
+- Send Request and View Response: 
+- Click the Send button and ensure the response status is 200 OK.
+- Response Examples:
+- Get Weather by City Name (Bucharest):
+- JSON Response:
+![City Name Bucharest](image-6.png)
+
+- URL: https://api.openweathermap.org/data/2.5/weather?lat=57&lon=-2.15&appid={Your_API_Key>}&units=metric
+- Send Request and View Response: 
+- Click the Send button and ensure the response status is 200 OK.
+- Response Examples:
+- Get Weather by City Name (Bucharest) with temperature in Celsius
+- JSON Response:
+![Celsius tempeture in Bucharest](image-7.png)
+
+- URL: https://api.openweathermap.org/data/2.5/weather?lat=57&lon=-2.15&appid={Your_API_Key>}&units=imperial
+- Send Request and View Response: 
+- Click the Send button and ensure the response status is 200 OK.
+- Response Examples:
+- Get Weather by City Name (Bucharest) with temperature in Fahrenheit
+- XML Response:
+![Fahrenheit tempeture in Bucharest](image-8.png)
+
+- URL: https://api.openweathermap.org/data/2.5/weather?q=Bucharest,RO&appid=<Your_API_Key>
+- Send Request and View Response: 
+- Click the Send button and ensure the response status is 200 OK.
+- Get Weather by City Name (Gent) 
+- XML Response:
+![City name Gent](image-9.png)
+
 
