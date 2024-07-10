@@ -22,7 +22,7 @@ This project illustrates the knowledge I gained after completing both Manual and
 
 #### API (Application Programming Interface):
 - An API is a set of rules and definitions that allows two or more computer programs or components to communicate with each other. 
-- In essence, an API serves as a contract between different software components, ensuring they can work together in a predictable and        efficient manner.
+- In essence, an API serves as a contract between different software components, ensuring they can work together in a predictable and efficient manner.
 
 **What is REST?**
 
@@ -63,9 +63,9 @@ This project illustrates the knowledge I gained after completing both Manual and
 
 **Web APIs Under Test**
 - Chuck Norris
-- JSON Placeholder
 - Open Weather
 - Pet Store
+- JSON Placeholder
 
 **Key Notes:**
 - One key objective in API testing is to validate that the service or application can effectively handle expected data volumes within required time frames, both for receiving and sending data.
@@ -98,26 +98,32 @@ This project illustrates the knowledge I gained after completing both Manual and
 - It’s a great way to have some fun and explore the humorous side of Chuck Norris!
 
 
+
+
 #### Validation Process:
 - Starting with the **GET** method:
-- Website: [**OpenWeatherMap**](https://https://openweathermap.org/)
+- Website: [**OpenWeatherMap**](https://openweathermap.org/)
 - The endpoints for OpenWeatherMap that I am using are: 
 - Current weather data by geographic coordinates, city name, and with different response formats
+
 **The Endpoint Path:**
 -  Append the category endpoint to the base URL.
 - Base URL: https://api.openweathermap.org/data/2.5/weather
 - API Key: <Your_API_Key>
+
 **Category Endpoints:**
-- Endpoint URL: https://api.openweathermap.org/data/2.5/weather?q=Gent,BE&mode=xml&appid=<Your_API_Key>
-- Parameters Explanation:
-$lat: Latitude. Required for geolocation requests.
-lon: Longitude. Required for geolocation requests.
-appid: Your unique API key.
-mode: Optional response format (xml, html, or JSON).
-units: Optional units of measurement (standard, metric, or imperial).
-lang: Optional language for the response.
+
+#### Verification Process:
 $
-**Steps to Validate:**
+- lat: Latitude. Required for geolocation requests.
+- lon: Longitude. Required for geolocation requests.
+- appid: Your unique API key.
+- mode: Optional response format (xml, html, or JSON).
+- units: Optional units of measurement (standard, metric, or imperial).
+- lang: Optional language for the response.
+$
+
+**Starting with**
 - URL: https://api.openweathermap.org/data/2.5/weather?q=Bucharest,RO&appid=<Your_API_Key>
 - Send Request and View Response: 
 - Click the Send button and ensure the response status is 200 OK.
