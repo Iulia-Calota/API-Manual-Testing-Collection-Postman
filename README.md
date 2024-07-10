@@ -97,10 +97,10 @@ This project illustrates the knowledge I gained after completing both Manual and
 - It’s a great way to have some fun and explore the humorous side of Chuck Norris!
 
 
-
+## Next Up: Weather API 
 
 #### Validation Process:
-- Starting with the **GET** method:
+- Using the **GET** method:
 - Website: [**OpenWeatherMap**](https://openweathermap.org/)
 - The endpoints for OpenWeatherMap that I am using are: 
 - Current weather data by geographic coordinates, city name, and with different response formats
