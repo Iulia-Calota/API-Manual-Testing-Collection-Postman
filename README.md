@@ -177,6 +177,7 @@ The Endpoint Path:
 - View Response: 200 OK
 
 #### Validation Process:
+###### Images: Retrieve images of cats.
 - Starting with the **GET** method:
 - Click on this to get a random **Image** [Random Images Cats](https://api.thecatapi.com/v1/images/search)
 - Send Request and View Response: 
@@ -184,10 +185,19 @@ The Endpoint Path:
 - Response Examples: Get random images with cats
 - JSON Response:
 ![The sleepy cat](image-11.png)
+- View Response: 200 OK
 
 ##### Please note:
 - To get more than 10 images, and additional fields then be sure to use your API Key received on the email.
 - Starting with the **GET** method:
 - [**20** random images](https://api.thecatapi.com/v1/images/search?limit=10)
+- JSON Response:
 ![20 Random images with cats](image-12.png)
+- View Response: 200 OK
 
+###### Breeds: Get information about different cat breeds.
+- Starting with the **GET** method:
+- [Breeds with Wikipediainfo](https://api.thecatapi.com/v1/breeds?limit=10&page=0)
+- JSON Response:
+![Aegean cat](image-13.png)
+- View Response: 200 Ok 
