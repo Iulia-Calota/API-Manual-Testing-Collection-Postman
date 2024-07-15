@@ -200,4 +200,4 @@ The Endpoint Path:
 - [Breeds with Wikipediainfo](https://api.thecatapi.com/v1/breeds?limit=10&page=0)
 - JSON Response:
 ![Aegean cat](image-13.png)
-- View Response: 200 Ok 
+- View Response: 200 OK 
