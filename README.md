@@ -158,7 +158,8 @@ This project illustrates the knowledge I gained after completing both Manual and
 - After successfully completing my weather API call, I'm excited to share the power of accessing current weather data from any location on Earth! 
 
 
-![## Welcome to The Cat API!](image-10.png)
+
+ Next one ![## Welcome to The Cat API!](image-10.png)
 
  #### Start exploring the world of cats!
 - [The Cat API](https://thecatapi.com/)
