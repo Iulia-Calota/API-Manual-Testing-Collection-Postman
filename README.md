@@ -167,18 +167,23 @@ This project illustrates the knowledge I gained after completing both Manual and
 - [The Cat API](https://thecatapi.com/)
 - The endpoints for The Cat API website that I am using are: Images, Breeds, and Facts with different response formats.
 #### Verification process:
-~~The Endpoint Path:
-Images: Retrieve images of cats.
-Breeds: Get information about different cat breeds.
-Facts: Discover interesting facts about cats.~~
+The Endpoint Path:
+###### Images: Retrieve images of cats.
+###### Breeds: Get information about different cat breeds.
+###### Facts: Discover interesting facts about cats.
 - Send Request:Use Postman to fetch data from The Cat API based on the category you specify.
 - View Response: 200 OK
 
 #### Validation Process:
-- Starting with the GET method:
-- Click on this to get a random Image [Random Images Cats](https://api.thecatapi.com/v1/images/search)
+- Starting with the **GET** method:
+- Click on this to get a random **Image** [Random Images Cats](https://api.thecatapi.com/v1/images/search)
 - Send Request and View Response: 
 - Click the Send button and ensure the response status is 200 OK.
 - Response Examples: Get random images with cats
 - JSON Response:
 ![The sleepy cat](image-11.png)
+
+##### Please note:
+- To get more than 10, and additional fields then be sure to use your API Key from the welcome email as the 'x-api-key' header, or ?api_key= query string parameter to access all the images and data.
+- Starting with the **GET** method:
+- 
