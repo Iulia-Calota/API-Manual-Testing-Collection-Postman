@@ -167,6 +167,8 @@ This project illustrates the knowledge I gained after completing both Manual and
 - [The Cat API](https://thecatapi.com/)
 - The endpoints for The Cat API website that I am using are: Images, Breeds, and Facts with different response formats.
 #### Verification process:
+- Get started with your cat-tastic adventure with entering the email and receiving the unique APi key in the email.
+
 The Endpoint Path:
 ###### Images: Retrieve images of cats.
 ###### Breeds: Get information about different cat breeds.
@@ -184,6 +186,8 @@ The Endpoint Path:
 ![The sleepy cat](image-11.png)
 
 ##### Please note:
-- To get more than 10, and additional fields then be sure to use your API Key from the welcome email as the 'x-api-key' header, or ?api_key= query string parameter to access all the images and data.
+- To get more than 10 images, and additional fields then be sure to use your API Key received on the email.
 - Starting with the **GET** method:
-- 
+- [**20** random images](https://api.thecatapi.com/v1/images/search?limit=10)
+![20 Random images with cats](image-12.png)
+
