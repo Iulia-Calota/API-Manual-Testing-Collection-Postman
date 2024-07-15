@@ -159,7 +159,9 @@ This project illustrates the knowledge I gained after completing both Manual and
 
 
 
- Next one ![## Welcome to The Cat API!](image-10.png)
+ ## Next one 
+ 
+ ![## Welcome to The Cat API!](image-10.png)
 
  #### Start exploring the world of cats!
 - [The Cat API](https://thecatapi.com/)
