@@ -201,3 +201,7 @@ The Endpoint Path:
 - JSON Response:
 ![Aegean cat](image-13.png)
 - View Response: 200 OK 
+
+### Summary of Testing Results
+- Testing of The Cat API revealed that the Images, Breeds, endpoints are generally reliable and functional. - All endpoints responded as documented, with average response times within acceptable limits.
+- Overall, The Cat API is a robust and reliable API that meets its intended purposes effectively. 
