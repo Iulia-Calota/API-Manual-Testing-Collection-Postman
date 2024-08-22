@@ -18,10 +18,7 @@ This project illustrates the knowledge I gained after completing both Manual and
 
 
 **What is an API?** 
-
-
-Hey hey hey 
-
+ 
 #### API (Application Programming Interface):
 - An API is a set of rules and definitions that allows two or more computer programs or components to communicate with each other. 
 - In essence, an API serves as a contract between different software components, ensuring they can work together in a predictable and efficient manner.
